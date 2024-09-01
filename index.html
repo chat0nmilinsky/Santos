@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlo Acutis</title>
+    <link rel="shortcut icon" href="../Imagens/CASY.ico" type="image/x-icon">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+* {
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.infoBox {
+    display: none;
+    font-size: large;
+}
+
+.heading1cyka {
+    margin-left: 200px;
+}
+
+.img1 {
+    width: 100pt;
+    height: 100pt;
+    text-align: center;
+    margin: 0;
+}
+
+.btn {
+    border: none;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header h1 {
+    float: left;
+}
+
+.section {
+    padding: 20px 0;
+    border-bottom: #e0e0e0 1px solid;
+}
+
+.section h2 {
+    margin: 0 0 20px 0;
+}
+
+.section p {
+    margin: 0 0 20px 0;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <header id="home">
+        <div class="container">
+            <h1 class="heading1cyka">Carlo Acutis "o Beato da Internet"
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#biografia">Biografia</a></li>
+                    <li><a href="#contribuicoes">Contribuições</a></li>
+                    <li><a href="#milagres">Milagres</a></li>
+                    <li><a href="#beatificacao">Beatificação</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="biografia" class="section">
+        <div class="container">
+            <span class="expandable" onclick="toggleInfo('infoBox1')"><button class="btn"><h2>Biografia</h2></button></span>
+            <div class="boxblyat">
+                <p class="infoBox" id="infoBox1"><b>Carlo Acutis nasceu em 3 de maio de 1991, em Londres, onde seus pais estavam temporariamente por motivos de trabalho. Pouco depois, sua família se mudou para Milão, Itália, onde Carlo cresceu e viveu até sua morte precoce em 12 de outubro de 2006, aos 15 anos, devido a uma leucemia fulminante.
+
+                Desde muito jovem, Carlo demonstrou uma profunda fé religiosa. Embora seus pais não fossem muito religiosos, ele mostrava grande interesse pela Igreja Católica e pela Eucaristia, e insistiu em receber a Primeira Comunhão aos 7 anos de idade, antes do costume usual. A partir desse momento, ele começou a participar da missa diariamente e a rezar o rosário regularmente. Carlo também se confessava semanalmente, uma prática que ele manteve até o fim da vida.</b></p> 
+            </div>
+        </div>
+    </section>
+
+    <section id="contribuicoes" class="section">
+        <div class="container">
+            <span class="expandable" onclick="toggleInfo('infoBox2')"><button class="btn"><h2>Contribuições</h2></button></span>
+            <p class="infoBox" id="infoBox2"><b>Carlo usou a internet como ferramenta para espalhar a mensagem cristã. Aos 11 anos, começou a desenvolver um site que catalogava e explicava milagres eucarísticos, com o objetivo de mostrar ao mundo a realidade da presença de Cristo na Eucaristia. Mesmo sendo muito jovem, Carlo era conhecido por sua fé madura, sua vida de oração intensa e sua devoção à Eucaristia e à Virgem Maria. Ele participava diariamente da Missa e rezava o Rosário. Seu exemplo inspirou muitos jovens a se aproximarem de Deus. Carlo era conhecido por ajudar os necessitados. Ele usava suas economias para comprar sacos de dormir para moradores de rua e ajudava seus amigos cujos pais estavam se divorciando.</b></p>
+        </div>
+    </section>
+
+    <section id="milagres" class="section">
+        <div class="container">
+            <span class="expandable" onclick="toggleInfo('infoBox3')"><button class="btn"><h2>Milagres</h2></button></span>
+            <p class="infoBox" id="infoBox3"><b>O milagre atribuído à intercessão de Carlo Acutis, que abriu caminho para sua beatificação, ocorreu em 2013 no Brasil, na cidade de Campo Grande, Mato Grosso do Sul. Um menino chamado Matheus, de sete anos, que sofria de uma rara condição pancreática congênita conhecida como pâncreas anular, foi curado de forma inexplicável após a oração de sua família pedindo a intercessão de Carlo Acutis. O caso foi rigorosamente investigado pela Igreja e considerado um milagre.</b></p>
+        </div>
+    </section>
+
+    <section id="beatificacao" class="section">
+        <div class="container">
+            <span class="expandable" onclick="toggleInfo('infoBox4')"><button class="btn"><h2>Beatificação</h2></button></span>
+            <p class="infoBox" id="infoBox4"><b>Carlo Acutis foi beatificado em 10 de outubro de 2020, em Assis, Itália, na Basílica de São Francisco. Durante a cerimônia, o cardeal Agostino Vallini, representante do Papa Francisco, destacou que Carlo viveu a sua vida com simplicidade e fé, e que seu exemplo é um convite para que todos, especialmente os jovens, vivam a santidade no cotidiano.
+            A beatificação de Carlo Acutis é significativa porque ele é o primeiro beato da Igreja que usou a internet para evangelizar. Sua história é vista como um testemunho do poder da fé e da importância de usar a tecnologia para o bem.</b></p>
+        </div>
+    </section>
+
+    <script>
+        function toggleInfo(id) {
+          var infoBox = document.getElementById(id);
+          if (infoBox.style.display === "none" || infoBox.style.display === "") {
+            infoBox.style.display = "block";
+          } else {
+            infoBox.style.display = "none";
+          }
+        }
+      </script>
+</body>
+</html>
